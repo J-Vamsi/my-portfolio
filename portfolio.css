@@ -698,7 +698,7 @@ footer{
     .flex2, .flex3 {
         flex-direction: row;
         align-items: center;
-        gap: 23px;
+        gap: 20px;
     }
 
     .one, .two, .three, .four, .five, .six {
@@ -709,12 +709,11 @@ footer{
     .one1, .two1, .three1, .four1, .five1, .six1 {
         width: 80%;
         margin: 0 auto;
-        
     }
 
     .percentage {
         font-size: 18px;
-        line-height: 18px;
+        line-height: 14px;
     }
 
     /* Contact Section */
