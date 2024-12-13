@@ -519,7 +519,19 @@ footer{
         gap: 10px;
         align-items: center;
     }
+    #first-page{
+        padding-left: 10px;
+    }
 
+    #main-content{
+        padding-left: 10px;
+    }
+
+    #education{
+        padding-left: 10px;
+    }
+
+    
     #navbar a {
         font-size: 16px;
         padding: 10px;
@@ -672,7 +684,7 @@ footer{
     }
 
     .one, .two, .three, .four, .five, .six {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -689,6 +701,12 @@ footer{
     .buttons-contact {
         font-size: 30px;
         text-align: center;
+    }
+
+    .contact-all{
+        justify-content: center;
+        gap: 30px;
+        align-items:center;
     }
 
     .buttons-contact #one,
