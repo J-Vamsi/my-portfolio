@@ -691,6 +691,7 @@ footer{
         flex-direction: column;
         align-items: center;
         gap: 100px;
+        margin-right:300px
     }
     
     
@@ -713,6 +714,7 @@ footer{
 
     .percentage {
         font-size: 18px;
+        line-height: 18px;
     }
 
     /* Contact Section */
@@ -723,8 +725,9 @@ footer{
 
     .contact-all{
         justify-content: center;
-        gap: 300px;
-        padding-left: 100px;
+        gap: 30px;
+        align-items: center;
+        flex-direction: column;
     }
 
     .contact-all h1{
