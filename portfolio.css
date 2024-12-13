@@ -548,6 +548,7 @@ footer{
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-left: 50px;
     }
 
     
@@ -599,7 +600,7 @@ footer{
     }
 
     .school, .intermediate, .engineering {
-        width: 300px;
+        width: 350px;
         padding: 20px;
     }
 
