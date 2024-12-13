@@ -534,11 +534,11 @@ footer{
     }
 
     #main-content{
-        padding-left: 60px;
+        padding-left: 100px;
     }
 
     #education{
-        padding-left: 50px;
+        padding-left: 100px;
     }
 
     
@@ -688,14 +688,15 @@ footer{
     }
 
     .flex1{
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         gap: 20px;
+        padding: -40px;
     }
     
     
     .flex2, .flex3 {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         gap: 20px;
     }
@@ -724,6 +725,11 @@ footer{
         justify-content: center;
         gap: 30px;
         align-items:center;
+    }
+
+    .contact-all h1{
+        font-size: 30px;
+        text-align: center;
     }
 
     .buttons-contact #one,
