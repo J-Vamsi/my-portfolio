@@ -532,20 +532,21 @@ footer{
     }
     
     #first-page{
-        padding-right: 40px;
+        padding-left: 50px;
     }
 
     #main-content{
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-left: 60px
     }
 
     #education{
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 60px;
     }
 
     
