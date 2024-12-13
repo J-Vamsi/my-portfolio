@@ -690,15 +690,14 @@ footer{
     .flex1{
         flex-direction: column;
         align-items: center;
-        gap: 40px;
-        margin-right: 200px;
+        gap: 100px;
     }
     
     
     .flex2, .flex3 {
         flex-direction: row;
         align-items: center;
-        gap: 20px;
+        gap: 23px;
     }
 
     .one, .two, .three, .four, .five, .six {
@@ -709,6 +708,7 @@ footer{
     .one1, .two1, .three1, .four1, .five1, .six1 {
         width: 80%;
         margin: 0 auto;
+        
     }
 
     .percentage {
@@ -724,7 +724,7 @@ footer{
     .contact-all{
         justify-content: center;
         gap: 300px;
-        margin-left: 100px;
+        padding-left: 100px;
     }
 
     .contact-all h1{
