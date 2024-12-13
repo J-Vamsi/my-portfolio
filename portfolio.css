@@ -691,7 +691,7 @@ footer{
         flex-direction: column;
         align-items: center;
         gap: 40px;
-        margin-right: 90px;
+        margin-right: 200px;
     }
     
     
@@ -724,7 +724,7 @@ footer{
     .contact-all{
         justify-content: center;
         gap: 300px;
-        padding-left:100px;
+        margin-left: 100px;
     }
 
     .contact-all h1{
@@ -740,7 +740,12 @@ footer{
         font-size: 25px;
         margin: 10px;
     }
+    .buttons-contact{
+        margin-left: 50px;
+    }
+
 }
+
 
 /* For tablets with screen width between 768px and 1024px */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
