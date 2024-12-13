@@ -526,7 +526,6 @@ footer{
     }
 
     #flex1 {
-        flex-direction: column;
         gap: 20px;
         justify-content: center;
         margin-top: 150px;
@@ -719,3 +718,71 @@ footer{
         font-size: 35px;
     }
 }
+
+/* Mobile - For screens less than 768px (typically mobile devices) */
+@media screen and (max-width: 768px) {
+    #skills {
+        padding: 30px 5%;
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Reduce space between items */
+    }
+
+    .skill-item {
+        flex: 1 1 100%; /* Each item takes full width */
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+
+    .skill-item img {
+        width: 50px; /* Resize icons */
+        height: 50px;
+    }
+
+    .skill-item h3 {
+        font-size: 16px; /* Reduce font size */
+    }
+}
+
+/* Tablet - For screens between 769px and 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #skills {
+        padding: 40px 10%;
+        flex-direction: row; /* Keep items in a row */
+        gap: 30px; /* Maintain decent spacing */
+    }
+
+    .skill-item {
+        flex: 1 1 45%; /* Two items per row */
+    }
+
+    .skill-item img {
+        width: 55px; /* Slightly larger icons for tablets */
+        height: 55px;
+    }
+
+    .skill-item h3 {
+        font-size: 18px; /* Keep the font size consistent for tablets */
+    }
+}
+
+/* Desktop - For large screens, 1025px and above */
+@media screen and (min-width: 1025px) {
+    #skills {
+        padding: 50px 10%;
+        flex-direction: row; /* Horizontal layout */
+        gap: 40px; /* Larger gaps between items */
+    }
+
+    .skill-item {
+        flex: 1 1 200px; /* Maintain a grid layout with three items per row */
+    }
+
+    .skill-item img {
+        width: 60px; /* Full-size icons for larger screens */
+        height: 60px;
+    }
+
+    .skill-item h3 {
+        font-size: 20px; /* Larger font size for desktop screens */
+    }
+}
+
