@@ -719,70 +719,125 @@ footer{
     }
 }
 
-/* Mobile - For screens less than 768px (typically mobile devices) */
+/* For screens less than 768px (typically mobile devices) */
 @media screen and (max-width: 768px) {
+    /* Skills Section */
     #skills {
-        padding: 30px 5%;
-        flex-direction: column; /* Stack items vertically */
-        gap: 20px; /* Reduce space between items */
+        padding-top: 60px;
+        text-align: center;
     }
 
-    .skill-item {
-        flex: 1 1 100%; /* Each item takes full width */
-        padding: 15px; /* Reduce padding for smaller screens */
+    .flex1, .flex2, .flex3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 
-    .skill-item img {
-        width: 50px; /* Resize icons */
-        height: 50px;
+    .one, .two, .three, .four, .five, .six {
+        width: 80%;
+        margin: 0 auto;
     }
 
-    .skill-item h3 {
-        font-size: 16px; /* Reduce font size */
+    .one1, .two1, .three1, .four1, .five1, .six1 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .percentage {
+        font-size: 18px;
+    }
+
+    /* Contact Section */
+    .buttons-contact {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .buttons-contact #one,
+    .buttons-contact #two,
+    .buttons-contact #three,
+    .buttons-contact #four {
+        padding: 10px;
+        font-size: 25px;
+        margin: 10px;
     }
 }
 
-/* Tablet - For screens between 769px and 1024px */
+/* For tablets with screen width between 768px and 1024px */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Skills Section */
     #skills {
-        padding: 40px 10%;
-        flex-direction: row; /* Keep items in a row */
-        gap: 30px; /* Maintain decent spacing */
+        padding-top: 90px;
     }
 
-    .skill-item {
-        flex: 1 1 45%; /* Two items per row */
+    .flex1, .flex2, .flex3 {
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
     }
 
-    .skill-item img {
-        width: 55px; /* Slightly larger icons for tablets */
-        height: 55px;
+    .one, .two, .three, .four, .five, .six {
+        width: 350px;
     }
 
-    .skill-item h3 {
-        font-size: 18px; /* Keep the font size consistent for tablets */
+    .percentage {
+        font-size: 20px;
+    }
+
+    /* Contact Section */
+    .buttons-contact {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .buttons-contact #one,
+    .buttons-contact #two,
+    .buttons-contact #three,
+    .buttons-contact #four {
+        padding: 12px;
+        font-size: 28px;
+        margin: 15px;
     }
 }
 
-/* Desktop - For large screens, 1025px and above */
+/* For large screens (desktops and larger) */
 @media screen and (min-width: 1025px) {
+    /* Skills Section */
     #skills {
-        padding: 50px 10%;
-        flex-direction: row; /* Horizontal layout */
-        gap: 40px; /* Larger gaps between items */
+        padding-top: 120px;
     }
 
-    .skill-item {
-        flex: 1 1 200px; /* Maintain a grid layout with three items per row */
+    .flex1, .flex2, .flex3 {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 60px;
     }
 
-    .skill-item img {
-        width: 60px; /* Full-size icons for larger screens */
-        height: 60px;
+    .one, .two, .three, .four, .five, .six {
+        width: 390px;
     }
 
-    .skill-item h3 {
-        font-size: 20px; /* Larger font size for desktop screens */
+    .one1, .two1, .three1, .four1, .five1, .six1 {
+        width: 390px;
+    }
+
+    .percentage {
+        font-size: 22px;
+    }
+
+    /* Contact Section */
+    .buttons-contact {
+        font-size: 40px;
+    }
+
+    .buttons-contact #one,
+    .buttons-contact #two,
+    .buttons-contact #three,
+    .buttons-contact #four {
+        padding: 15px;
+        font-size: 32px;
+        margin: 20px;
     }
 }
+
 
