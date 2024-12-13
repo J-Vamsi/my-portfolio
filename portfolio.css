@@ -551,7 +551,8 @@ footer{
     #flex1 {
         gap: 20px;
         justify-content: center;
-        margin-top: 180px;
+        margin-top: 140px;
+        flex-direction: column;
     }
 
     #img1 {
@@ -619,73 +620,6 @@ footer{
         font-size: 25px;
     }
 }
-
-/* For tablets with screen width between 768px and 1024px */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    #navbar ul {
-        gap: 20px;
-    }
-
-    #navbar a {
-        font-size: 18px;
-    }
-
-    #flex1 {
-        gap: 40px;
-    }
-
-    #img1 {
-        width: 350px;
-        height: 350px;
-    }
-
-    .intro-container {
-        gap: 40px;
-    }
-
-    .profile-image {
-        width: 180px;
-        height: 180px;
-    }
-
-    .info-box {
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 25px;
-        width: 1000px;
-    }
-
-    .cta-button {
-        font-size: 16px;
-        padding: 12px;
-    }
-
-    .buttons-icons {
-        font-size: 18px;
-    }
-
-    #education .edu-details {
-        gap: 40px;
-    }
-
-    .school, .intermediate, .engineering {
-        width: 350px;
-    }
-
-    #edu, #ski {
-        font-size: 40px;
-    }
-
-    .buttons-contact {
-        font-size: 35px;
-    }
-
-    .buttons-contact #one, .buttons-contact #two, .buttons-contact #three, .buttons-contact #four {
-        padding: 15px;
-        font-size: 30px;
-    }
-}
-
 
 /* For screens less than 768px (typically mobile devices) */
 @media screen and (max-width: 768px) {
@@ -761,42 +695,4 @@ footer{
         margin-left: 50px;
     }
 
-}
-
-
-/* For tablets with screen width between 768px and 1024px */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Skills Section */
-    #skills {
-        padding-top: 90px;
-    }
-
-    .flex1, .flex2, .flex3 {
-        flex-direction: row;
-        justify-content: center;
-        gap: 40px;
-    }
-
-    .one, .two, .three, .four, .five, .six {
-        width: 350px;
-    }
-
-    .percentage {
-        font-size: 20px;
-    }
-
-    /* Contact Section */
-    .buttons-contact {
-        font-size: 35px;
-        text-align: center;
-    }
-
-    .buttons-contact #one,
-    .buttons-contact #two,
-    .buttons-contact #three,
-    .buttons-contact #four {
-        padding: 12px;
-        font-size: 28px;
-        margin: 15px;
-    }
 }
