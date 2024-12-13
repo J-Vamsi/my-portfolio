@@ -522,6 +522,7 @@ footer{
 @media screen and (max-width: 768px) {
     #header {
         padding: 5px;
+        padding-bottom: 10px;
     }
 
     #navbar ul {
@@ -550,7 +551,7 @@ footer{
     #flex1 {
         gap: 20px;
         justify-content: center;
-        margin-top: 150px;
+        margin-top: 180px;
     }
 
     #img1 {
@@ -594,9 +595,15 @@ footer{
         padding: 20px;
     }
 
-    #edu, #ski {
+    #edu{
         font-size: 32px;
+    } 
+    
+    #ski {
+        font-size: 32px;
+        margin-top: 180px
     }
+    
 
     .buttons-contact {
         font-size: 30px;
