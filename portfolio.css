@@ -531,10 +531,7 @@ footer{
         align-items: center;
     }
     #first-page{
-        
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        padding-right: 40px;
     }
 
     #main-content{
