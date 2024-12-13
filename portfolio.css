@@ -531,15 +531,23 @@ footer{
         align-items: center;
     }
     #first-page{
-        padding-left: 20px;
+        
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     #main-content{
-        padding-left: 70px;
+        
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     #education{
-        padding-left: 70px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     
