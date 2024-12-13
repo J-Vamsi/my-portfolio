@@ -603,6 +603,8 @@ footer{
     #ski {
         font-size: 32px;
         margin-top: 100px;
+        justify-content: center;
+        text-align: center;
     }
     
 
