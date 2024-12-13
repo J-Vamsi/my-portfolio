@@ -506,6 +506,16 @@ footer{
     gap: 65px;
 }
 
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.contact-all{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-items:center;
+}
+
+
 /* Media Queries for responsiveness */
 
 /* For screens less than 768px (typically mobile devices) */
@@ -520,15 +530,15 @@ footer{
         align-items: center;
     }
     #first-page{
-        padding-left: 10px;
+        padding-left: 20px;
     }
 
     #main-content{
-        padding-left: 10px;
+        padding-left: 60px;
     }
 
     #education{
-        padding-left: 10px;
+        padding-left: 50px;
     }
 
     
@@ -677,7 +687,14 @@ footer{
         text-align: center;
     }
 
-    .flex1, .flex2, .flex3 {
+    .flex1{
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    
+    .flex2, .flex3 {
         flex-direction: column;
         align-items: center;
         gap: 20px;
