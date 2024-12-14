@@ -578,7 +578,8 @@ footer{
     
     #first-page{
         padding-left: 60px;
-        padding-right: 60px;
+/*         padding-right: 60px; */
+        margin-right: 60px;
         
     }
 
