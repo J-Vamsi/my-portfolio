@@ -103,7 +103,7 @@ footer{
     border: 5px solid rgb(0, 24, 142);
 }
 
-#img1{
+#img1:hover{
     animation: colours 1s infinite;
 }
 
