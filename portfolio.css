@@ -666,8 +666,35 @@ footer{
         margin: 0 auto;
     }
 
-    .one1, .two1, .three1, .four1, .five1, .six1 {
+    .one1{
         width: 80%;
+        margin: 0 auto;
+    }
+    
+    .two1{
+        width: 75%;
+        margin: 0 auto;        
+    }
+    
+    .three1{
+        width: 70%;
+        margin: 0 auto;        
+    }
+    
+    
+    .four1{
+        width: 80%;
+        margin: 0 auto;        
+    }
+    
+    
+    .five1{
+        width: 65%;
+        margin: 0 auto;        
+    }
+    
+    .six1 {
+        width: 60%;
         margin: 0 auto;
     }
 
@@ -703,7 +730,7 @@ footer{
         margin: 10px;
     }
     .buttons-contact{
-        margin-left: 50px;
+        margin-left: 30px;
     }
 /*----*/
 }
